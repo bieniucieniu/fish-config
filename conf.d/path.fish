@@ -3,5 +3,6 @@ fish_add_path "$HOME/.bun/bin"
 fish_add_path "$HOME/.turso"
 fish_add_path "$HOME/.cargo/env"
 fish_add_path "$HOME/.cargo/bin"
-fish_add_path "/nix/var/nix/profiles/default/bin"
-fish_add_path "/opt/local/bin"
+fish_add_path "$HOME/.nix-profile/bin"
+fish_add_path /nix/var/nix/profiles/default/bin
+fish_add_path /opt/local/bin

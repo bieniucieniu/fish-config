@@ -1,3 +1,3 @@
-if type -q fnm 
-  fnm env | source
+if type -q fnm
+    fnm env | source
 end
