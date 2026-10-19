@@ -16,3 +16,10 @@ end
 # bun
 set --export BUN_INSTALL "$HOME/.bun"
 set --export PATH $BUN_INSTALL/bin $PATH
+
+# pnpm
+set -gx PNPM_HOME '/home/mbien/.local/share/pnpm'
+if test "$PATH[1]" != "$PNPM_HOME/bin"
+  set -gx PATH "$PNPM_HOME/bin" $PATH
+end
+# pnpm end
