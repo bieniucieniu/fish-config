@@ -5,6 +5,6 @@ end
 # fnm
 set FNM_PATH "/home/mbien/.local/share/fnm"
 if [ -d "$FNM_PATH" ]
-  set PATH "$FNM_PATH" $PATH
+  fish_add_path "$FNM_PATH"
   fnm env --shell fish | source
 end
